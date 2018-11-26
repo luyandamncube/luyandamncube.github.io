@@ -274,7 +274,7 @@ footer hr {
 .testimonial {
   text-align: center;
   margin-bottom: 30px;
-  
+  min-height: 500px;
 }
 
 .testimonial img {
