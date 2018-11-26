@@ -109,8 +109,8 @@ footer hr {
   margin-bottom: 1em;
 }
 
-.{
-  text-align: center;
+.list-inline{
+  list-style-type: none; 
 }
 
 @media screen and (min-width: 50em) {
@@ -139,7 +139,14 @@ footer hr {
   margin-right: auto;
   margin-left: auto;
 }
+.container-3 li{
+  padding: 10px;
+}
+.list-inline{
 
+  list-style-type:none;
+  display: flex;
+}
 .row {
   clear: both;
   margin-right: -1%;
